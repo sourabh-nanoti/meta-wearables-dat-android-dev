@@ -8,9 +8,14 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "vscjava.vscode-java-pack"
+        "vscjava.vscode-java-pack",
+        "ms-androidtools.vscode-android"
       ]
     }
+  },
+  "containerEnv": {
+    "ANDROID_HOME": "/opt/android-sdk",
+    "ANDROID_SDK_ROOT": "/opt/android-sdk"
   },
   "postCreateCommand": "[ -d external/other-repo ] || git clone https://github.com/facebook/meta-wearables-dat-android.git meta/meta-wearables-dat-android || true && java -version"
 }
