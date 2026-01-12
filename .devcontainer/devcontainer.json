@@ -12,6 +12,5 @@
       ]
     }
   },
-  "postCreateCommand": "[ -d external/other-repo ] || git clone https://github.com/facebook/meta-wearables-dat-android.git meta/meta-wearables-dat-android || true && java -version",
-  "remoteUser": "vscode"
+  "postCreateCommand": "[ -d external/other-repo ] || git clone https://github.com/facebook/meta-wearables-dat-android.git meta/meta-wearables-dat-android || true && java -version"
 }
